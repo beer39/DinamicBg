@@ -4,11 +4,11 @@ const thumbnail = document.getElementsByClassName("thumbnail");
 const hero = document.getElementById("hero");
 
 const backgroundImg = new Array(
-    "./img/bg1.jpg",
-    "./img/bg2.jpg",
-    "./img/bg3.jpg",
-    "./img/bg4.jpg",
-    "./img/bg5.jpg",
+    "./img/bg1.png",
+    "./img/bg2.png",
+    "./img/bg3.png",
+    "./img/bg4.png",
+    "./img/bg5.png",
 );
 
 let i = 0;
