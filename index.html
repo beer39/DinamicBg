@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Dinamic Background</title>
+</head>
+<body>
+    <div id="hero">
+        <div class="navbar">
+            <img class="logo" src="./img/logo.png" alt="">
+            <div class="user">
+                <button type="button">Explore</button>
+                <img src="./img/user.png" alt="user">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="info">
+                <h1>DISCOVER</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus distinctio modi ut maiores non
+                    fuga quae unde?</p>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="slider"><i class=""></i>
+            <div class="img-arrow" id="prev"><i class="fas fa-angle-left fa-2x"></i></div>
+            <div class="preview">
+                <img src="./img/bg1.jpg" alt="img" class="active thumbnail">
+                <img src="./img/bg2.jpg" alt="img" class="thumbnail">
+                <img src="./img/bg3.jpg" alt="img" class="thumbnail">
+                <img src="./img/bg4.jpg" alt="img" class="thumbnail">
+                <img src="./img/bg5.jpg" alt="img" class="thumbnail">
+            </div>
+            <div class="img-arrow" id="next"><i class="fas fa-angle-right fa-2x"></i></div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
